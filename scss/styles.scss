@@ -17,33 +17,6 @@ h2 {
     font-size: 2.5rem !important;
 }
 
-.navbar-toggler:focus {
-    outline: 1.5px solid #1d67e6;
-}
-    
-//Transpaent on top
-
-.navbar {
-    height: 4.5rem;
-    font-size: 1.1rem;
-    background-color: transparent;
-    border: none;
-    color: white;
-    z-index: 100;
-    transition: background-color 0.8s ease 0s;
-  }
-  
-  
-  /* Solid class attached on scroll past first section */
-  
-.navbar.solid {
-    height: 3.75rem;
-    font-size: 0.92rem;
-    background-color: #0f2d64;
-    transition: background-color 1s ease 0s;
-    box-shadow: 0 0 4px rgb(109, 108, 108);  
-}
-
 //Customization of navbar
 .nav-link {
     position: relative;
@@ -336,6 +309,3 @@ h2 {
 
 //Import Bootstrp Sass files
 @import "node_modules/bootstrap/scss/bootstrap";
-
- 
- 
